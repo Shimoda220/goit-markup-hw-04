@@ -156,27 +156,24 @@ body {
   color: var(--secondary-text-color);
   text-decoration: none;
 }
-.item-mail::before {
-  display: inline-flex;
- content:"";
-  width: 16px;
-  height: 12px;
-margin-right: 10px;
-padding-top: 2px;
-padding-bottom: 2px;
-background: #FFFFFF;
-  background-image: url(../images/envelope.svg);
-  background-size: contain;
+
+.item-mail:hover {
+  color:var(--main-blue-color);
 }
 
-.item-telephone {
-  display: inline-flex;
-  content:"";
-  width: 10px;
-  height: 16px;
-  background-color: #fff; 
-  background-image: url(../images/smartphone.svg);
+.item-tel:hover {
+  color: var(--main-blue-color);
 }
+
+.envelope {
+align-items: center;
+fill: currentColor;
+}
+
+.telephone {
+  fill: currentColor;
+}
+
 
 .contacts-mail:hover,
 .contacts-tel:hover {
@@ -266,14 +263,26 @@ background: #FFFFFF;
   padding: 0;
   gap: 30px;
 }
+.bg-antenna {
+  display: flex;
+}
 
- .advantages > .item {
-    flex-basis: calc((100% - 90px) / 4);
+ .item-antenna {
+  
+
+border: 1px teal solid;
+
  }
 
-/* .advantages > .item + .item {
-  margin-left: 30px;
-} */
+.antenna {
+  align-self: center;
+  border: #2196f3 solid 1px;
+  fill: currentColor;
+  padding-left: 1px ;
+  
+  
+
+}
 
 .headers {
   font-weight: 700;
