@@ -151,10 +151,12 @@ body {
   margin-left: 50px;
 }
 
-.contacts-mail,
-.contacts-tel {
+.contacts-mail, .contacts-tel
+ {
+  display:inline-flex;
   color: var(--secondary-text-color);
   text-decoration: none;
+  align-items: center;
 }
 
 .item-mail:hover {
@@ -165,14 +167,11 @@ body {
   color: var(--main-blue-color);
 }
 
-.envelope {
-align-items: center;
+.envelope, .telephone {
+margin-right: 10px;
 fill: currentColor;
 }
 
-.telephone {
-  fill: currentColor;
-}
 
 
 .contacts-mail:hover,
