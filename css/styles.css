@@ -408,17 +408,20 @@ fill: currentColor;
 .team-icons {
   width: 206px;
   margin: auto;
+  
+}
+.team-links {
   fill: #fff;
+  text-decoration: none;
 }
 
 
 .ellipse-1, .ellipse-2, .ellipse-3, .ellipse-4 {
-  background-color: #fff;
+
 }
 
 .ellipse-1:hover
 {
-  
   fill: var(--main-blue-color);
 } 
 .ellipse-2:hover
@@ -436,6 +439,47 @@ fill: currentColor;
 } 
 
 
+.icons-clients-comp {
+  padding-top: 94px;
+  padding-bottom: 94px;
+  
+  
+}
+ .second {
+  display: flex;
+  flex-direction: column; 
+ 
+}
+
+.parameters {
+display: flex;
+}
+  
+  .company-icons {
+    display: flex;
+    width: 1170px;
+    justify-content: center;
+  }
+/* margin: 94px 215px; */
+
+
+.clients-comp {
+  font-weight: 700;
+font-size: 36px;
+line-height: 1.16px;
+letter-spacing: 0.03em;
+color: #212121;
+padding-bottom: 50px;
+margin: auto;
+/* margin-bottom: 50px; */
+}
+
+.icon-client:nth-child(2n+1) {
+  /* width: 106px;
+height: 60px; */
+
+  
+}
 
 
 
