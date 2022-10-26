@@ -241,6 +241,14 @@ body {
   padding: 10px 32px;
 }
 
+.button-hero:hover,
+.button-hero:focus {
+  background: #2196F3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+  }
+
+
 .pointer {
   cursor: pointer;
 }
@@ -272,15 +280,19 @@ body {
   display: flex;
   width: 270px;
   align-items: center;
-  align-self: center;
-  padding: 25px 100px 25px 100px;
+  height: 120px;
   background-color: #f5f4fa;
   margin-bottom: 30px;
+  justify-content: center;
 }
 
 .antenna {
   align-items: center;
   fill: currentColor;
+}
+
+.item-antenna {
+  border-radius: 4px;
 }
 
 .headers {
@@ -414,10 +426,11 @@ body {
   height: 44px;
   fill: #afb1b8;
   text-decoration: none;
-  padding: 12px;
+ justify-content: center;
   display: inline-flex;
   align-items: center;
   border-radius: 50%;
+  
 }
 
 .team-links:hover {
@@ -432,11 +445,18 @@ body {
   border-radius: 50%;
 }
 
+.icons-list-team {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  align-items: center;
+}
+
 .ellipse-1,
 .ellipse-2,
 .ellipse-3,
 .ellipse-4 {
-  fill: #757575;
+  fill: AFB1B8;
 }
 
 .ellipse-1:hover {
@@ -472,17 +492,25 @@ body {
   width: 170px;
   height: 92px;
   align-items: center;
+
 }
 
 .company-icons {
   display: flex;
   width: 100%;
   height: 100%;
-  border: 1px solid #afb1b8;
+  border: 1px solid #AFB1B8;
+    border-radius: 4px;
   margin-right: 0px;
   justify-content: center;
   align-items: center;
 }
+
+.company-icons:hover,
+.company-icons:focus {
+  border: 1px solid #2196F3;
+}
+
 
 .clients-comp {
   font-weight: 700;
@@ -586,7 +614,7 @@ body {
 .footer-text-header {
   font-weight: 700;
   font-size: 14px;
-  line-height: 1.1px;
+  line-height: 1.1;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   margin-bottom: 20px;
@@ -700,13 +728,14 @@ body {
   flex-basis: calc((100% - 60px) / 3);
 }
 .web-item:hover {
+  border: 1px solid #eeeeee;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-
 }
 
 .sides {
   text-decoration: none;
 }
+
 
 .text-work {
   padding: 19px 24px 19px 24px;
