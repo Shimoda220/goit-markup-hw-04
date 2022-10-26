@@ -241,8 +241,7 @@ body {
   padding: 10px 32px;
 }
 
-.button-hero:hover,
-.button-hero:focus {
+.button-hero:hover {
   background: #2196F3;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
@@ -414,6 +413,7 @@ body {
   letter-spacing: 0.03em;
   color: var(--secondary-text-color);
   text-align: center;
+  margin-bottom: 16px;
 }
 
 .team-icons {
@@ -448,7 +448,7 @@ body {
 .icons-list-team {
   display: flex;
   list-style: none;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
 }
 
@@ -729,7 +729,7 @@ body {
 }
 .web-item:hover {
   border: 1px solid #eeeeee;
-  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .sides {
